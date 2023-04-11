@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 20px;
+}
+
+nav{
+  background-color: blue;
+  padding: 20px;  
+  text-align: right;
+}
+
+li, a{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+
+.return{
+  color: black;
+}
+
+.return:hover{
+  color: blue;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  padding: 20px;
+}
+
+.seccion-empresa{
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para dispositivos móviles */
+/*ia screen and (max-width: 767px) {
+
+
+  body {
+    font-size: 14px;
+  }
+
+ 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}*/
+
+/* Estilos para tabletas */
+
+/*
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+ 
+  body {
+    font-size: 16px;
+  }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}*/
+
+/* Estilos para equipos de escritorio */
+/*
+@media screen and (min-width: 1024px) {
+ 
+  body {
+    font-size: 18px;
+  }
+
+
+  img {
+    max-width: none;
+    height: auto;
+  }
+
+}*/
