@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-  background-color: rgb(35, 35, 105);
+  background-color: blue;
   padding: 20px;  
   text-align: right;
 }
@@ -31,7 +31,6 @@ li, a{
 
 h1{
   text-align: center;
-  font-weight: 500;
 }
 
 section{
@@ -58,6 +57,15 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+}
+
+.formulario{
+  width: 80%;
+    background-color: rgb(213, 225, 214);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width:500px;
 }
 
 /* Estilos para dispositivos móviles */
